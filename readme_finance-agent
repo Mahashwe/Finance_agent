@@ -1,0 +1,18 @@
+This project lets you ask questions and get answers from two different agents: one that gathers info from the web, and another that pulls financial data. I built it to make getting information as easy as possible by combining the best of both worlds.
+
+How I Created the Workflow
+I wanted to create a system that could handle different types of questions. So, I decided to use two agents:
+
+Web Agent: This one finds general info from the internet using DuckDuckGo and always makes sure to mention where it got the information from.
+
+Finance Agent: This agent focuses on financial data. It gets stock prices, company details, and analyst recommendations from Yahoo Finance. I made sure it shows the data in a table so it’s easy to read.
+
+Then, I thought it’d be awesome if both of these agents could work together, so I combined them into an Agent Team. Now, when you ask a question, you might get both web and finance data as a response, all from one simple app.
+
+To make it easy for anyone to use, I built a Streamlit app where you can type in your question and see the answer pop up on the screen.
+
+How it Works
+Web Agent: Fetches general web information and always gives you the sources.
+Finance Agent: Pulls financial data (like stock prices) and displays it in a neat table.
+Agent Team: Both agents work together to answer your questions, mixing web and financial info.
+Streamlit: Provides a simple interface where you type your question and get answers instantly.
